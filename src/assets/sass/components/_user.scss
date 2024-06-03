@@ -1,0 +1,47 @@
+.myContainer {
+  background-color: #111111;
+  padding-top: 60px;
+  height: 100vh;
+  @media (max-width: 1100px) {
+    width: 97%;
+    height: 100vh;
+  }
+
+  .pri-heading {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 97.52px;
+    text-align: center;
+  }
+  .sec-heading {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34.13px;
+    text-align: center;
+    width: 821px;
+  }
+
+  .cardBg {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: rgb(39 37 37 / 70%);
+    color: #ffffff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+
+    .user-img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+}
